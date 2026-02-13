@@ -3,7 +3,7 @@ pipeline {
 
   environment {
     EC2_HOST = "15.206.178.184"
-    SSH_CRED = "ubuntu"
+    SSH_CRED = "ec2-ssh-key"
     REMOTE_BASE = "/home/ubuntu/app"
   }
 
